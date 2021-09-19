@@ -238,10 +238,10 @@
 
 
   /*---------------------------------------
-    FEATURE          
+    CARCHECK          
   -----------------------------------------*/
 
-  .feature {
+  .carcheck {
     background: var(--dark-color);
     padding: 5rem 0;
   }
@@ -376,14 +376,14 @@
 
   .Adat_adas {
     border-left: 2px solid;
-    padding-left: 3.5rem;
+    padding-left: 3.5rem;    
   }
 
   .Adat_adas strong {
     color: var(--white-color);
     opacity: 0.85;
   }
-
+ 
   .team-thumb {
     position: relative;
   }
