@@ -26,7 +26,7 @@
     --primary-color:        #f13a11;
     --white-color:          #ffffff;
     --dark-color:           #171819;
-    --about-bg-color:       #f9f9f9;
+    --rolunk-bg-color:      #f9f9f9;
 
     --gray-color:           #909090;
     --link-color:           #404040;
@@ -112,6 +112,11 @@
   strong {
     font-weight: var(--font-weight-bold);
     letter-spacing: 0;
+    font-size: 25px;
+  }
+
+  input{
+    width: 100%;
   }
 
   .section {
@@ -165,7 +170,7 @@
 
 
   /*---------------------------------------
-     GENERAL               
+     ÁLTALÁNOS BEÁLLÍTÁSOK               
   -----------------------------------------*/
 
   * {
@@ -197,9 +202,9 @@
   }
 
 
-  /* BG OVERLAY */
+  /* HÁTTÉR BEÁLLÍTÁSOK */
 
-  .bg-overlay {
+  .hatter {
     background: var(--dark-color);
     position: absolute;
     top: 0;
@@ -213,7 +218,7 @@
 
 
   /*---------------------------------------
-     MODAL              
+     MODEL              
   -----------------------------------------*/
 
   .modal-content {
@@ -243,7 +248,7 @@
 
 
   /*---------------------------------------
-     MENU             
+     MENÜ            
   -----------------------------------------*/
 
   .navbar {
@@ -348,10 +353,10 @@
   }
 
   /*---------------------------------------
-     HERO              
+     FŐOLDAL              
   -----------------------------------------*/
 
-  .hero {
+  .fooldal {
     background-image: url('../images/carservice.jpg');
     background-size: cover;
     background-position: top;
@@ -361,114 +366,12 @@
     position: relative;
   }
 
-
   /*---------------------------------------
-     CLASS               
+    RÓLUNK            
   -----------------------------------------*/
 
-  .class-info {
-    background: var(--white-color);
-    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
-    border-radius: 0 0 2px 2px;
-    padding: 1rem 2rem;
-    position: relative;
-  }
-
-  .class-info img {
-    border-radius: 2px 2px 0 0;
-  }
-
-  .class-info strong {
-    color: var(--gray-color);
-  }
-
-  .class-price {
-    background: var(--primary-color);
-    border-radius: var(--border-radius-large);
-    color: var(--white-color);
-    font-weight: var(--font-weight-bold);
-    display: block;
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    width: 3.5rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
-    text-align: center;
-  }
-
-
-  /*---------------------------------------
-     SCHEDULE             
-  -----------------------------------------*/
-
-  .schedule {
-    background: var(--dark-color);
-  }
-
-  .schedule-table {
-    display: table;
-    border: 0;
-    text-align: center;
-  }
-
-  .schedule-table strong,
-  .schedule-table span {
-    display: block;
-    text-align: center;
-  }
-
-  .schedule-table strong {
-    color: var(--white-color);
-  }
-
-  .schedule-table span {
-    color: var(--gray-color);
-  }
-
-  .schedule-table span,
-  .schedule-table small {
-    font-size: var(--menu-font-size);
-    text-transform: uppercase;
-  }
-
-  .schedule-table small {
-    position: relative;
-    top: 10px;
-  }
-
-  .table .thead-light th,
-  .schedule-table tr td:first-child {
-    background: var(--primary-color);
-    border: 1px solid #212122;
-    color: var(--white-color);
-  }
-
-  .schedule-table .thead-light th {
-    border-bottom: 0;
-    text-transform: uppercase;
-  }
-
-  .table-bordered td, 
-  .table-bordered th {
-    border: 1px solid #212122;
-  }
-
-  .table-bordered td {
-    padding-bottom: 22px;
-  }
-
-  .table td, .table th {
-    padding: 1rem;
-  }
-
-
-  /*---------------------------------------
-      ABOUT & TEAM            
-  -----------------------------------------*/
-
-  .about {
-    background: var(--about-bg-color);
+  .rolunk {
+    background: var(--rolunk-bg-color);
   }
 
   .Adat_adas {
