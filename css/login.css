@@ -32,10 +32,20 @@
     font-family: var(--base-font-family);
   }
 
-  h2,h4 {
+  h1,h2,h4 {
     font-weight: var(--font-weight-thin);
     line-height: normal;
     color: var(--white-color);
+  }
+
+  h1 {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-weight-bold);
+    font-style: oblique;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding-bottom: 10%;
   }
 
   h2 {
@@ -49,15 +59,26 @@
   }
 
   input{
-    width: 80%;
+    width: 70%;
   }
-
+  /*---------------------------------------
+     LOGIN PAGE            
+  -----------------------------------------*/
+  .loginpage {
+    background-image: url('../images/login-background.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+  }
   /*---------------------------------------
      BACKGROUND SETTINGS            
   -----------------------------------------*/
 
   .background {
-    background-image: url();
+    background-image: url("../images/login-background.jpg");
     background: var(--dark-color);
     position: absolute;
     top: 0;
@@ -69,14 +90,14 @@
     opacity: 0.85;
   }
 
-/*---------------------------------------
+  /*---------------------------------------
      LOGIN & REGISTRATION BLOCK            
   -----------------------------------------*/
   .container{
-      padding-top: 15%;
+      padding-left: 9%;
   }
 
-/*---------------------------------------
+  /*---------------------------------------
      BUTTON           
   -----------------------------------------*/
   .custom-btn {
@@ -99,13 +120,21 @@
   .custom-btn:focus {
     box-shadow: none;
   }
-
   .custom-btn.bordered:hover,
   .custom-btn.bordered:focus,
-
   .custom-btn.bg-color:hover,
   .custom-btn.bg-color:focus {
     background: var(--white-color);
     border-color: transparent;
     color: var(--primary-color);
+  }
+
+  .bordered {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+
+  .bg-color {
+    background: var(--primary-color);
+    color: var(--white-color);
   }
